@@ -1,0 +1,44 @@
+{
+  "enemies": [
+    {
+      "name": "Прохожий",
+      "hp": 100,
+      "physical_damage": 15,
+      "magic_damage": 0,
+      "armor": 10,
+      "magic_resist": 0.0,
+      "crit_damage": 2.0,
+      "crit_chance": 0.1
+    },
+    {
+      "name": "Рыцарь",
+      "hp": 150,
+      "physical_damage": 50,
+      "magic_damage": 0,
+      "armor": 50,
+      "magic_resist": 0.2,
+      "crit_damage": 2.0,
+      "crit_chance": 0.3
+    },
+    {
+      "name": "Элитный воин",
+      "hp": 250,
+      "physical_damage": 75,
+      "magic_damage": 50,
+      "armor": 100,
+      "magic_resist": 0.5,
+      "crit_damage": 2.25,
+      "crit_chance": 0.4
+    },
+    {
+      "name": "Маг",
+      "hp": 80,
+      "physical_damage": 10,
+      "magic_damage": 100,
+      "armor": 20,
+      "magic_resist": 0.8,
+      "crit_damage": 3.0,
+      "crit_chance": 0.5
+    }
+  ]
+}

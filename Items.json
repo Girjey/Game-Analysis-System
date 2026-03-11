@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "name": "Меч",
+      "type": "weapon",
+      "physical_damage": 50.0,
+      "sharpness": 1.0,
+      "magic_damage": 0.0,
+      "magic_amplification": 1.0,
+      "crit_damage": 2.0,
+      "crit_chance": 0.25,
+      "attack_speed": 1.2,
+      "defense": 0.0,
+      "magic_resist": 0.0,
+      "weight": 3.5,
+      "durability": 100.0
+    },
+    {
+      "name": "Щит",
+      "type": "armor",
+      "physical_damage": 0.0,
+      "sharpness": 0.0,
+      "magic_damage": 0.0,
+      "magic_amplification": 1.0,
+      "crit_damage": 0.0,
+      "crit_chance": 0.0,
+      "attack_speed": 0.0,
+      "defense": 50.0,
+      "magic_resist": 0.3,
+      "weight": 5.0,
+      "durability": 100.0
+    },
+    {
+      "name": "Огненный посох",
+      "type": "weapon",
+      "physical_damage": 20.0,
+      "sharpness": 0.5,
+      "magic_damage": 80.0,
+      "magic_amplification": 1.5,
+      "crit_damage": 2.5,
+      "crit_chance": 0.15,
+      "attack_speed": 0.8,
+      "defense": 10.0,
+      "magic_resist": 0.1,
+      "weight": 4.0,
+      "durability": 80.0
+    }
+  ]
+}
