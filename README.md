@@ -3,8 +3,6 @@
 
 ### Desktop-приложение для симуляции, сравнения и математического анализа боевого баланса игровых объектов в жанре RPG.
 
----
-
 <img width="692" height="388" alt="gif 1 game analysis system (1)" src="https://github.com/user-attachments/assets/d65779ca-a85f-4b70-bd27-2ebf0885e555" />
 
 # Функционал
