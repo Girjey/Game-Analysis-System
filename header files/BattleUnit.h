@@ -12,6 +12,11 @@ private:
     double own_magic_resist = 0.0;
     double own_crit_chance = 0.0;
     double own_crit_damage = 0.0;
+    double own_accuracy = 0.0;
+    double own_evasion = 0.0;
+    double current_stamina = 0.0;
+    double max_stamina = 0.0;
+    double stamina_cost_per_hit = 0.0;
 
 public:
     BattleUnit(const Hero& hero, const Item& item);
@@ -26,5 +31,10 @@ public:
     double get_battle_unit_magic_resist() const;
     double get_battle_unit_crit_chance() const;
     double get_battle_unit_crit_damage() const;
+    double get_battle_unit_accuracy() const;
+    double get_battle_unit_evasion() const;
+    double get_battle_unit_current_stamina() const;
+    double get_battle_unit_max_stamina() const;
+    double get_battle_unit_stamina_cost() const;
     void print_battle_unit_stats() const;
 };

@@ -1,44 +1,64 @@
 {
-  "enemies": [
-    {
-      "name": "Прохожий",
-      "hp": 100,
-      "physical_damage": 15,
-      "magic_damage": 0,
-      "armor": 10,
-      "magic_resist": 0.0,
-      "crit_damage": 2.0,
-      "crit_chance": 0.1
-    },
-    {
-      "name": "Рыцарь",
-      "hp": 150,
-      "physical_damage": 50,
-      "magic_damage": 0,
-      "armor": 50,
-      "magic_resist": 0.2,
-      "crit_damage": 2.0,
-      "crit_chance": 0.3
-    },
-    {
-      "name": "Элитный воин",
-      "hp": 250,
-      "physical_damage": 75,
-      "magic_damage": 50,
-      "armor": 100,
-      "magic_resist": 0.5,
-      "crit_damage": 2.25,
-      "crit_chance": 0.4
-    },
-    {
-      "name": "Маг",
-      "hp": 80,
-      "physical_damage": 10,
-      "magic_damage": 100,
-      "armor": 20,
-      "magic_resist": 0.8,
-      "crit_damage": 3.0,
-      "crit_chance": 0.5
-    }
-  ]
+    "enemies": [
+        {
+            "accuracy": 80.0,
+            "armor": 10.0,
+            "crit_chance": 0.1,
+            "crit_damage": 2.0,
+            "evasion": 5.0,
+            "hp": 100.0,
+            "magic_damage": 0.0,
+            "magic_resist": 0.0,
+            "max_stamina": 10.0,
+            "name": "Прохожий",
+            "physical_damage": 15.0,
+            "stamina": 100.0,
+            "stamina_cost": 5.0
+        },
+        {
+            "accuracy": 100.0,
+            "armor": 50.0,
+            "crit_chance": 0.3,
+            "crit_damage": 2.0,
+            "evasion": 0.0,
+            "hp": 150.0,
+            "magic_damage": 0.0,
+            "magic_resist": 0.2,
+            "max_stamina": 120.0,
+            "name": "Рыцарь",
+            "physical_damage": 50.0,
+            "stamina": 120.0,
+            "stamina_cost": 8.0
+        },
+        {
+            "accuracy": 120.0,
+            "armor": 100.0,
+            "crit_chance": 0.4,
+            "crit_damage": 2.25,
+            "evasion": 20.0,
+            "hp": 250.0,
+            "magic_damage": 50.0,
+            "magic_resist": 0.5,
+            "max_stamina": 150.0,
+            "name": "Элитный воин",
+            "physical_damage": 75.0,
+            "stamina": 150.0,
+            "stamina_cost": 10.0
+        },
+        {
+            "accuracy": 90.0,
+            "armor": 20.0,
+            "crit_chance": 0.5,
+            "crit_damage": 3.0,
+            "evasion": 25.0,
+            "hp": 80.0,
+            "magic_damage": 100.0,
+            "magic_resist": 0.2,
+            "max_stamina": 80.0,
+            "name": "Маг",
+            "physical_damage": 10.0,
+            "stamina": 80.0,
+            "stamina_cost": 5.0
+        }
+    ]
 }

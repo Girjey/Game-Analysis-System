@@ -1,0 +1,46 @@
+{
+    "heroes": [
+        {
+            "accuracy": 100.0,
+            "crit_chance": 0.15,
+            "crit_damage": 2.0,
+            "defense": 15.0,
+            "evasion": 30.0,
+            "hp": 100.0,
+            "magic_damage": 20.0,
+            "magic_resist": 0.1,
+            "max_stamina": 100.0,
+            "name": "Герой",
+            "physical_damage": 40.0,
+            "stamina": 100.0
+        },
+        {
+            "accuracy": 95.0,
+            "crit_chance": 0.2,
+            "crit_damage": 2.5,
+            "defense": 5.0,
+            "evasion": 20.0,
+            "hp": 80.0,
+            "magic_damage": 60.0,
+            "magic_resist": 0.4,
+            "max_stamina": 120.0,
+            "name": "Маг",
+            "physical_damage": 10.0,
+            "stamina": 120.0
+        },
+        {
+            "accuracy": 120.0,
+            "crit_chance": 0.15,
+            "crit_damage": 2.5,
+            "defense": 15.0,
+            "evasion": 30.0,
+            "hp": 140.0,
+            "magic_damage": 20.0,
+            "magic_resist": 0.1,
+            "max_stamina": 100.0,
+            "name": "Копьеносец",
+            "physical_damage": 40.0,
+            "stamina": 100.0
+        }
+    ]
+}

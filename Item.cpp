@@ -1,12 +1,12 @@
 #include "header files/Item.h"
 
-Item::Item(std::string name, std::string type, 
+Item::Item(std::string name, std::string type,
            double phys_dmg, double _sharpness,
            double _magic_dmg, double _magic_amplification,
            double _crit_dmg, double _crit_chance,
-           double _atk_speed, double _defence, 
-           double _magic_resist, double _weight, 
-           double _durability) :
+           double _atk_speed, double _defence,
+           double _magic_resist, double _weight,
+           double _durability, double _stamina_cost) :
     item_name(name),
     item_type(type),
     physical_damage(phys_dmg),
@@ -19,7 +19,8 @@ Item::Item(std::string name, std::string type,
     defense(_defence),
     magic_resist(_magic_resist),
     weight(_weight),
-    durability(_durability)
+    durability(_durability),
+    stamina_cost(_stamina_cost)
 {}
 
 double Item::calculatePhysicalDamage() const {
@@ -91,6 +92,10 @@ double Item::getWeight() const {
 
 double Item::getDurability() const {
     return durability;
+}
+
+double Item::getStaminaCost() const {
+    return stamina_cost;
 }
 
 
